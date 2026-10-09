@@ -1,0 +1,19 @@
+{
+  "name": "pagesnap",
+  "version": "1.0.0",
+  "description": "Full-page screenshots of web apps in one image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.64.0"
+  },
+  "bin": {
+    "snap": "snap.js"
+  }
+}
